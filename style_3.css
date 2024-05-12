@@ -1,0 +1,49 @@
+html{
+    background-color: #1c1a33;
+    font-family: "Microsoft New Tai Lue";
+    font-style: italic;
+    color: white;
+}
+
+
+h2{
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    width:250px;
+    height: 100px;
+    text-align:center;
+    border:1px solid white;
+    padding:5px;
+    font-size: 40px;
+
+}
+.start_menu {
+    border-collapse:separate;
+    border-spacing:0 30px;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.start_menu div {
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    text-align:center;
+    padding-top:20px;
+}
+.start_menu div:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* Change the background color on hover */
+}
